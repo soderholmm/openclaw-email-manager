@@ -45,49 +45,23 @@ mkdir -p ~/OpenClaw-Workspace/skills/email-manager
 # Copy files
 cp -r * ~/OpenClaw-Workspace/skills/email-manager/
 
-# Link skill (if using OpenClaw)
-openclaw skills link ~/OpenClaw-Workspace/skills/email-manager
+# Check skill is loaded
+openclaw skills list | grep email-manager
 ```
 
 ## 🤝 Support the Project
 
-If you find this skill useful, consider buying me a coffee! Your support helps maintain and improve the project.
+If you find this skill useful, consider a donation!
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/yourusername)
-
-**PayPal:**
-```
-https://paypal.me/yourusername
-```
-
-**Bitcoin:** `bc1qxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
-
+[![PayPal](https://img.shields.io/badge/PayPal-donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/soderholmm)
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License
 
-Copyright (c) 2024 Mattias Söderholm
+Copyright (c) Mattias Söderholm
 
 ## 🙏 Acknowledgements
 
 - [OpenClaw](https://github.com/openclaw/openclaw) - The AI agent framework
 - Postfix and Dovecot - The excellent MTA and MDA
 
-## 📬 Contact
-
-- GitHub Issues: [https://github.com/yourusername/openclaw-email-manager/issues](https://github.com/yourusername/openclaw-email-manager/issues)
-- Email: your.email@example.com
-
-
-## 🖼️ Optional: Add Donation Badges
-
-You can also add these badges at the top for visibility:
-
-[!["Buy Me A Coffee"](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/yourusername)
-[![PayPal](https://img.shields.io/badge/PayPal-donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/yourusername)
-```
-
-Just replace `yourusername` with your actual:
-- Buy Me A Coffee username
-- PayPal.me username
-- Bitcoin address (if including)
